@@ -1,0 +1,20 @@
+1. show report
+  npx playwright show-report
+
+2. debug 
+npx playwright test tests/UIBasicstest.spec.js --debug
+
+3. code generator (not recommended)
+npx playwright codegen <url>
+
+4. ui mode
+npx playwright test --ui			/ no need refresh
+
+5. set config file?
+npx playwright test --config name.js --project=chrome_execution
+
+6. execute trace.zip?
+npx playwright show-trace "<path>"
+
+7. tagged test
+npx playwright test --grep "@tag"
